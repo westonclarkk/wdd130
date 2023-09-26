@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;900&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;900&family=Gloock&family=Montserrat:wght@300;400&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -21,7 +21,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #f6c926  ;
   --nav-link-color: #eaeaea;
-  --nav-background-color: #d4700d;
+  --nav-background-color: #ec2929;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #f0f2f3;
 }
@@ -161,4 +161,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+header img{
+  height: 250px;width: 600px !important;
 }
