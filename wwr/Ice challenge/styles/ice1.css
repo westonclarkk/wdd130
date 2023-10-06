@@ -1,0 +1,33 @@
+.Maincontent{
+    margin: 2% 37%;
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-color: pink;    
+}
+p{
+    margin: 0 auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    font-weight: 100;
+}
+.third{
+    text-align :left
+}
+img{
+    width: 200px;
+}
+.fourth{
+    text-align: center;
+}
+h1:hover{
+    color: black;
+}

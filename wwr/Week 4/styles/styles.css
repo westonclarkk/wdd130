@@ -1,0 +1,31 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px
+}
+footer p {
+    font-size: 30px;
+    margin: 15px auto;
+}
+a:hover {
+    background-color: red;
+    color: steelblue;
+}
+nav a {
+    color: yellow;
+}
+#word6 {
+    color: white;
+}
+.bold {
+    font-weight: 400;
+}
+body{
+    max-width: 1600px;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+    
