@@ -8,6 +8,7 @@ div = select "div" elements
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    align-items:center;
 }
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
@@ -170,6 +171,35 @@ main section img{
     box-sizing: border-box;
 }
 
+/* Rivers CSS */
+
+.float-right{
+    float: right;
+    margin-left:40px; 
+    margin-bottom: 20px;
+    
+}
+.float-left{float:left;margin-right:40px; margin-top:35px; margin-bottom: 35px;
+}
+.canyon{
+    margin: 0 auto;
+width: 100%;
+display: grid;
+grid-template-columns: 50% 50%;
+
+}
+
+.canyon img{
+    height: 400px;
+    margin-bottom: 35px;
+    width: 90%;
+    
+}
+
+main {
+    max-width: 1000px;
+    margin:0 auto;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
